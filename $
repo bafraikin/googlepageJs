@@ -133,6 +133,8 @@ div.footer div#footer_left a{
 	position: relative;
 
 	left: 38%;
-	top: 200px;
+	top: 150px;
+	
+
 }
 
