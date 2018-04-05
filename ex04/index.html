@@ -1,0 +1,31 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Grille</title>
+	</head>
+	<body>
+		<canvas id="mycanvas" width="700px" height="700px" style="border:1px solid #d3d3d3;"></canvas>
+
+		<script>
+			let chiffre = parseInt(prompt("entrez ici un chiffre", "20"));
+			taille = 700 / chiffre;
+			console.log(taille);
+
+let c = document.getElementById("mycanvas");
+let ctx = c.getContext("2d");
+
+for (var i = 0 ; i < chiffre ; i++) {
+	for ( j = 0 ; i < chiffre ; j++) {
+		ctx.rect(taille*i, taille*j, taille,taille);
+		ctx.stroke();
+	}
+}
+		</script>
+
+
+	</body>
