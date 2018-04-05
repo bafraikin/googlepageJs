@@ -91,7 +91,7 @@ button {
 	margin-left: 25px;
 	left: 33%;
 	text-decoration: none;
-	width: 15%
+	width: 15%;
 }
 
 button:hover {
@@ -133,8 +133,6 @@ div.footer div#footer_left a{
 	position: relative;
 
 	left: 38%;
-	top: 150px;
-	
-
+	top: 200px;
 }
 
