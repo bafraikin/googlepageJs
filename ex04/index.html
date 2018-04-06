@@ -14,13 +14,13 @@
 		<script>
 			let chiffre = parseInt(prompt("entrez ici un chiffre", "20"));
 			taille = 700 / chiffre;
-			console.log(taille);
+	
 
-let c = document.getElementById("mycanvas");
-let ctx = c.getContext("2d");
+	let c = document.getElementById("mycanvas");
+	let ctx = c.getContext("2d");
 
 for (var i = 0 ; i < chiffre ; i++) {
-	for ( j = 0 ; i < chiffre ; j++) {
+	for ( j = 0 ; j < chiffre ; j++) {
 		ctx.rect(taille*i, taille*j, taille,taille);
 		ctx.stroke();
 	}
